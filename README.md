@@ -45,30 +45,30 @@ mensagem: fim
 
 # 📁 Código-fonte
 
-import os 
+    import os 
 
-mensagens = []
+    mensagens = []
 
-nome = input("Nome: ")
+    nome = input("Nome: ")
 
-while True:
+    while True:
 
-    # limpando terminal
-    os.system('cls')
+        # limpando terminal
+        os.system('cls')
 
-    if len(mensagens) > 0:
+        if len(mensagens) > 0:
         for m in mensagens:
             print(m['nome'], "-", m['texto'])
 
-    print("_________________")
+        print("_________________")
 
-    # obtendo texto
-    texto = input("mensagem: ")
-    if texto == "fim":
-        break
+        # obtendo texto
+        texto = input("mensagem: ")
+        if texto == "fim":
+            break
 
-    # adicionando mensagem na lista 
-    mensagens.append({
-        "nome": nome,
-        "texto": texto
-    })
+        # adicionando mensagem na lista 
+        mensagens.append({
+            "nome": nome,
+            "texto": texto
+        })
