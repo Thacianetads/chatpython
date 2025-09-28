@@ -14,21 +14,16 @@ Este é um projeto simples em Python que simula um chat no terminal. Ele permite
 
 # 📦 Requisitos
 
-Python 3.x
+- Python 3.x
 
 # ▶️ Como usar
 
 1. Clone o repositório ou copie o código para um arquivo .py, por exemplo: main.py
 
-2. Execute o script:
-
-python main.py
-
+2. Execute o script: python main.py
 
 3. Insira seu nome quando solicitado.
 
 4. Digite suas mensagens uma a uma.
 
-5. Para encerrar, digite:
-
-fim
+5. Para encerrar, digite: fim
