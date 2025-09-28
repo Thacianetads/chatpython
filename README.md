@@ -4,7 +4,7 @@ Este é um projeto simples em Python que simula um chat no terminal. Ele permite
 
 # 🚀 Funcionalidades
 
--Entrada de nome do usuário
+*Entrada de nome do usuário
 
 -Inserção de múltiplas mensagens
 
