@@ -4,15 +4,13 @@ Este é um projeto simples em Python que simula um chat no terminal. Ele permite
 
 # 🚀 Funcionalidades
 
--Entrada de nome do usuário
+- Entrada de nome do usuário
 
--Inserção de múltiplas mensagens
+- Inserção de múltiplas mensagens
 
--Exibição em tempo real das mensagens anteriores
+- Exibição em tempo real das mensagens anteriores
 
--Encerramento do chat ao digitar fim
-
-fim
+- Encerramento do chat ao digitar fim
 
 # 📦 Requisitos
 
@@ -20,17 +18,17 @@ Python 3.x
 
 # ▶️ Como usar
 
-1.Clone o repositório ou copie o código para um arquivo .py, por exemplo: chat.py
+1. Clone o repositório ou copie o código para um arquivo .py, por exemplo: main.py
 
-2.Execute o script:
+2. Execute o script:
 
-python chat.py
+python main.py
 
 
-3.Insira seu nome quando solicitado.
+3. Insira seu nome quando solicitado.
 
-4.Digite suas mensagens uma a uma.
+4. Digite suas mensagens uma a uma.
 
-5.Para encerrar, digite:
+5. Para encerrar, digite:
 
 fim
