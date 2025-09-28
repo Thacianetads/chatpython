@@ -39,6 +39,7 @@ _________________
 mensagem: Estou testando esse chat.
 
 Thaciane - Olá, tudo bem?
+
 Thaciane - Estou testando esse chat.
 _________________
 mensagem: fim
