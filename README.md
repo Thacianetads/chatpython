@@ -27,3 +27,48 @@ Este é um projeto simples em Python que simula um chat no terminal. Ele permite
 4. Digite suas mensagens uma a uma.
 
 5. Para encerrar, digite: fim
+
+# 🧠 Exemplo de uso
+Nome: Thaciane
+
+_________________
+mensagem: Olá, tudo bem?
+
+Thaciane - Olá, tudo bem?
+_________________
+mensagem: Estou testando esse chat.
+
+Thaciane - Olá, tudo bem?
+Thaciane - Estou testando esse chat.
+_________________
+mensagem: fim
+
+# 📁 Código-fonte
+
+import os 
+
+mensagens = []
+
+nome = input("Nome: ")
+
+while True:
+
+    # limpando terminal
+    os.system('cls')
+
+    if len(mensagens) > 0:
+        for m in mensagens:
+            print(m['nome'], "-", m['texto'])
+
+    print("_________________")
+
+    # obtendo texto
+    texto = input("mensagem: ")
+    if texto == "fim":
+        break
+
+    # adicionando mensagem na lista 
+    mensagens.append({
+        "nome": nome,
+        "texto": texto
+    })
